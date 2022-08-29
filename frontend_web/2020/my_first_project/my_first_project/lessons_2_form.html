@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<!--Блочный тег-->
+<form action="#" method="post" enctype="multipart/form-data"></form>
+<div>
+<!--    placeholder="Ведите имя" задаеться значения поня-->
+    <input placeholder="Ведите имя" type="text" name="username" value="" />
+</div>
+<div>
+    <input type="password" name="userpass" value="Введите пароль"/>
+</div>
+<div>
+<!--    chacked - по умолчанию
+         Выбор или то или то-->
+    <p><input checked type="radio" name="beer" value="lager"/> Светлое пиво</p>
+    <p><input type="radio" name="beer" value="Dark"/> Темное</p>
+</div>
+<br>
+<div>
+    <p><input type="radio" name="beer2" value="lager"/> Светлое пиво</p>
+    <p><input checked type="radio" name="beer2" value="Dark"/> Темное</p>
+</div>
+<div>
+    <!--    chacked - по умолчанию
+         флажок выбора -->
+    <p><input type="checkbox" name="car" value="yes"/> Наличие авто </p>
+    <p><input checked type="checkbox" name="house" value="yes"/> House </p>
+    <p><input type="checkbox" name="build" value="yes"/> Build </p>
+    <p><input checked type="checkbox" name="sister" value="yes"/> НSister </p>
+</div>
+<div>
+     <!-- Выбор файла  -->
+    <input type="file" name="foto" />
+</div>
+<div>
+    <textarea placeholder="Подпись" name="Текст" ></textarea>
+</div>
+<div>
+<!--    multiple - множественый выбор
+        selected - по умолчанию-->
+    <select multiple name="color" id="">
+        <option selected value="red">Выбери цвет</option>
+        <option value="red">Крастный</option>
+        <option value="yellow">Желтый</option>
+        <option value="blue">Синий</option>
+    </select>
+
+</div>
+<div>
+<!--    type="submit"- отправиться вся форма
+         type="reset"- очистка полей и значений-->
+   <button type="submit">I am burron </button>
+</div>
+
+
+<!--</editor-fold>-->
+</body>
+</html>

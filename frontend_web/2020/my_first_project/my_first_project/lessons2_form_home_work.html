@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home_work_form</title>
+</head>
+<body>
+<form action="#" method="get" enctype="multipart/form-data">
+    <div>
+        <p>Имя</p>
+        <input placeholder="Имя" tabindex="1" name="username" type="text">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input type="password" tabindex="2" name="password">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input type="tel" name="userphone" tabindex="3">
+    </div>
+    <div>
+        <p>Пол</p>
+        <div><input type="radio" name="gender" value="Man" tabindex="4">Мужской</div>
+        <div><input type="radio" name="gender" value="Woman" tabindex="4">Женский</div>
+    </div>
+    <div>
+        <p>Имущество</p>
+        <div><input type="checkbox" name="bike" tabindex="5">Велосипед</div>
+        <div><input type="checkbox" name="car" tabindex="6">Машина</div>
+        <div><input disabled type="checkbox" name="home" tabindex="7">Дом</div>
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea tabindex="8" name="text"></textarea>
+    </div>
+    <div>
+        <p>Прикрепить фото</p>
+        <input type="file" name="photo"></input>
+    </div>
+    <div>
+        <p>Любимый цвет</p>
+        <select name="color" >
+            <option selected value="yellow">Желтый</option>
+            <option value="green">Зеленый</option>
+            <option value="red">Крастный</option>
+        </select>
+    </div>
+
+    <div>
+        <p>Действия</p>
+        <button>Отправить</button>
+        <button>Очистить</button>
+    </div>
+
+
+</form>
+</body>
+</html>
